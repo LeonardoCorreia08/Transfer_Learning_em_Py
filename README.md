@@ -19,15 +19,15 @@ pip install torch torchvision
 
 ## Conjunto de dados
 
-O conjunto de dados utilizado neste projeto é composto por 12.499 imagens de gatos e 12.499 imagens de cachorros. As imagens estão organizadas em subpastas separadas para cada classe dentro dos diretórios de treinamento e teste.
+O conjunto de dados utilizado neste projeto é composto por 14.499 imagens de gatos e 14.499 imagens de cachorros. As imagens estão organizadas em subpastas separadas para cada classe dentro dos diretórios de treinamento e teste.
 
-Certifique-se de ter os diretórios de treinamento e teste configurados corretamente. Você pode definir os caminhos para os diretórios nas variáveis `train_path` e `test_path` no arquivo `main.py`.
+Certifique-se de ter os diretórios de treinamento e teste configurados corretamente. Você pode definir os caminhos para os diretórios nas variáveis `train_path` e `test_path` no arquivo `projeto 1.ipynb`.
 
 ## Treinamento do modelo
 
-Para treinar o modelo, execute o arquivo `prpjeto 1.py`. O script carregará o conjunto de dados, aplicará transformações nas imagens, construirá um modelo de transfer learning usando a arquitetura ResNet-50 pré-treinada e realizará o treinamento.
+Para treinar o modelo, execute o arquivo `projeto 1.ipynb`. O script carregará o conjunto de dados, aplicará transformações nas imagens, construirá um modelo de transfer learning usando a arquitetura ResNet-50 pré-treinada e realizará o treinamento.
 
-Você pode ajustar os hiperparâmetros, como número de épocas, taxa de aprendizado, etc., no arquivo `prpjeto 1.py` conforme necessário.
+Você pode ajustar os hiperparâmetros, como número de épocas, taxa de aprendizado, etc., no arquivo `projeto 1.ipynb` conforme necessário.
 
 Após o treinamento, o modelo será avaliado no conjunto de teste e exibirá a acurácia alcançada.
 
