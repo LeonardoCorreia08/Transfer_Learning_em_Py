@@ -21,6 +21,12 @@ pip install torch torchvision
 
 O conjunto de dados utilizado neste projeto é composto por 14.499 imagens de gatos e 14.499 imagens de cachorros. As imagens estão organizadas em subpastas separadas para cada classe dentro dos diretórios de treinamento e teste.
 
+O dataset utilizado engloba duas classes: gatos e cachorros. Uma descrição da base de dados pode ser visualizada neste link: https://www.tensorflow.org/datasets/catalog/cats_vs_dogs. 
+
+Já o dataset para download pode ser acessado por meio deste outro link:
+
+https://www.microsoft.com/en-us/download/details.aspx?id=54765. 
+
 Certifique-se de ter os diretórios de treinamento e teste configurados corretamente. Você pode definir os caminhos para os diretórios nas variáveis `train_path` e `test_path` no arquivo `projeto 1.ipynb`.
 
 ## Treinamento do modelo
